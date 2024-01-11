@@ -6,8 +6,7 @@ This project is adpated from  OpenChatKit (https://github.com/togethercomputer/O
 
 ## steps to reproduce
 * git clone the repository
-* run `docker build -t assement .`
-* create an `app` and `app/data/` directory inside docker
+* run `docker build -t assement .` inside the directory
 * move the files inside `wikipedia-3sentence-level-retrieval-index` directory into `app/data/` directory
 * run `docker build -t <image_name> .`
 * run `docker run --gpus '"device=0"' -it -p 8888:8888 -v $PWD/data:/app/data assesment  jupyter lab /app/retriver.ipynb --allow-root --ip 0.0.0.0`
