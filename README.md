@@ -1,5 +1,5 @@
 # retrival-agumentataion
-This project is adpated from  OpenChatKit (https://github.com/togethercomputer/OpenChatKitset), and hence we will have to use (https://huggingface.co/datasets/ChristophSchuhmann/wikipedia-3sentence-level-retrieval-index/tree/main) repository, for which you have to do
+This project is adpated from  OpenChatKit (https://github.com/togethercomputer/OpenChatKit), and hence we will have to use (https://huggingface.co/datasets/ChristophSchuhmann/wikipedia-3sentence-level-retrieval-index/tree/main) repository, for which you have to do
 
     git lfs install
     git clone https://huggingface.co/datasets/ChristophSchuhmann/wikipedia-3sentence-level-retrieval-index data
