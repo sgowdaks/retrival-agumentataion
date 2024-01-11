@@ -6,7 +6,7 @@ This project is adpated from  OpenChatKit (https://github.com/togethercomputer/O
 
 ## steps to reproduce
 * git clone the repository
-* run `docker build -t <image_name> .`
+* run `docker build -t assement .`
 * create an `app` and `app/data/` directory inside docker
 * move the files inside `wikipedia-3sentence-level-retrieval-index` directory into `app/data/` directory
 * run `docker build -t <image_name> .`
